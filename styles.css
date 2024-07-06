@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.botao__telainicial__top {
+    margin: 20px;
+}
+
+main {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.botao__login__email {
+    width: 400px;
+    height: 40px;
+    color: #ffffff; 
+    background-color: #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.botao__login__google {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-style: Semi Bold;
+}
+
+h4 {
+    color: #000000;
+    font-size: 16px;
+}
+
+.paragrafo__grey {
+    display: flexbox;
+    color:#828282;
+    font-size: 16px;
+}
+
+input[type="email"] {
+    width: 400px;
+    padding: 8px;
+    font-size: 16px; 
+    border: 1px solid #E0E0E0; 
+    border-radius: 8px;
+}
+
+.conteudo__login__paragrafos {
+    font-size: 16px;
+    font-style: Regular;
+}
