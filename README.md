@@ -1,2 +1,2 @@
 # Interface-Cadastro-de-usu-rio
-Minha primeira interface de Cadastro ou Login-in de usuário.
+Minha primeira interface de Cadastro e Login de usuário.
