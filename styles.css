@@ -1,71 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
-    }
-    
-body{background-color:#050C9C;
-height: 100vh;
-box-sizing: border-box;}
+    text-decoration: none; color: black;
+    font-family: "Inter", sans-serif;
+}
 
-.BotãoConfig {
-    background-color: #3572EF;
-    color: #A7E6FF;
-}
-h1 {
-    color:#3abef9;
-}
-.Titulo-destaque{
-    color:#3ABEF9;
-}
-.LinguagensPg {
-    background-color: #3572EF;
-    font-family: "Playwrite US Modern", cursive;
-    border-radius: 10px;
-}
-p {color: #A7E6FF;
-    margin: 10px;
-    border: 2px solid#A7E6FF;
-    padding: 7px;
-    border-radius: 10px;
-}
-.FotoPerfil{
-    margin: 1px;
-}
-.apresentacao__links {
-    display: flex;
-    flex-direction:row-reverse;
+.botao__telainicial__top {
     margin: 20px;
-    
 }
-.apresentacao {
+
+main {
     margin: 10%;
     display: flex;
-    align-items:center;
-    margin: 8%;
-    justify-content: space-between;
-}
-.apresentacao__conteudo {
-    width: 615px;
-    display: flex;
+    justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    text-align: center;
 }
-.apresentacao__conteudo__titulo {
-    font-size: 36px;
-    font-family: "Playwrite US Modern", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
+
+.botao__login__email {
+    width: 400px;
+    height: 40px;
+    color: #ffffff; 
+    background-color: #000000;
+    border-radius: 8px;
+    font-size: 16px;
     font-style: normal;
 }
-.apresentacao__conteudo__texto {
-    font-size: 17px;
-    font-family: "Playwrite MX", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+
+.botao__login__google {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: black;
+    box-sizing:border-box;
+    padding-left: 20px;
+    padding-right: 170px;
 }
-.apresentacao__links__link {
-    width: 280px;
+
+h1 {
+    font-size: 24px;
+    font-style: Semi Bold;
+}
+
+h4 {
+    color: #000000;
+    font-size: 16px;
+}
+
+.paragrafo__grey {
+    display: flexbox;
+    color:#828282;
+    font-size: 16px;
+}
+
+input[type="email"] {
+    width: 400px;
+    padding: 8px;
+    font-size: 16px; 
+    border: 1px solid #E0E0E0; 
+    border-radius: 8px;
+}
+
+.conteudo__login__paragrafos {
+    font-size: 16px;
+    font-style: Regular;
 }
